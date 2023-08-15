@@ -1,32 +1,48 @@
 /*  your css code here. If applicable */
-#table-1,#t11,#t12,#t13{
-	border:1px;
-	border:solid;
-	spacing:1px;
-	padding:1px;
-	width: 600px
-}
-#t12{
-	text-align: center;
-}
-#t13{
-	text-align:right;
-}
-#t21,#top{
-	border:1px;
-	border:solid;
-	spacing:1px;
-	padding:15px;
-	width: 600px
-}
-#table-2,#table-3{
-	border:1px;
-	border: solid;
-	padding:1px;
-}
-.top{
-	background-color:green;
-}
-.bottom{
-	background-color:blue;
-}
+#t11{
+            text-align: left;
+            border: 1px solid black;
+        }
+        .center{
+            text-align: center;
+            border: 1px solid black;
+        }
+        .right{
+            text-align: right;
+            border: 1px solid black;
+        }
+        #table-1{
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-spacing: 1px;
+            
+        }
+        #table-2{
+            width: 100%;
+            border: 1px solid black;
+            padding: 1px;
+            border-collapse: collapse;
+        }
+        #t21{
+            border:1px solid black;
+            border-spacing: 1px;
+            padding: 15px;
+            
+        }
+        #table-3{
+            width: 100%;
+            border: 1px solid black;
+            padding: 1px;
+            border-collapse: collapse;
+        }
+        #top{
+            background-color: green;
+            border-spacing: 1px;
+            padding: 15px;
+        }
+        #bottom{
+            background-color: blue;
+            border-spacing: 1px;
+            padding: 15px;
+        }
