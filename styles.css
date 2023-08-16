@@ -1,48 +1,38 @@
 /*  your css code here. If applicable */
-#t11{
-            text-align: left;
-            border: 1px solid black;
-        }
-        .center{
-            text-align: center;
-            border: 1px solid black;
-        }
-        .right{
-            text-align: right;
-            border: 1px solid black;
-        }
-        #table-1{
-            width: 100%;
-            border: 1px solid black;
-            border-collapse: collapse;
-            border-spacing: 1px;
-            
-        }
-        #table-2{
-            width: 100%;
-            border: 1px solid black;
-            padding: 1px;
-            border-collapse: collapse;
-        }
-        #t21{
-            border:1px solid black;
-            border-spacing: 1px;
-            padding: 15px;
-            
-        }
-        #table-3{
-            width: 100%;
-            border: 1px solid black;
-            padding: 1px;
-            border-collapse: collapse;
-        }
-        #top{
-            background-color: green;
-            border-spacing: 1px;
-            padding: 15px;
-        }
-        #bottom{
-            background-color: blue;
-            border-spacing: 1px;
-            padding: 15px;
-        }
+h1{
+	text-align:center;
+}
+table{
+	width:100%;
+	
+	
+}
+table,tr,td{
+	border:1px solid black ;
+	border-spacing:1px;
+	padding:1px;
+	
+	
+}
+td:nth-child(2){
+	text-align:center;
+}
+td:nth-child(3){
+	text-align:right;
+}
+#table-2{
+	height:150px;
+}
+
+#t-image{
+	text-align:center;
+}
+.bg1{
+	background-color:green;
+	height:18px;
+}
+.bg2{
+	background-color:blue;
+	height:18px;
+	
+}
